@@ -59,12 +59,12 @@ module.exports.start = async function () {
 
   // sort by min date
   var sorteduniqueexpeditions = uniqueresults.sort((a, b) => {
-     return (a.min_date < b.min_date);
+     return (new Date(a.min_date) - new Date(b.min_date));
   })
 
   var myFile = fs.createWriteStream("./data.json");
   var serialize = ndjson.stringify();
-  serialize.pipe(process.stdout);
+  //serialize.pipe(process.stdout);
   serialize.pipe(myFile);
   serialize.write(sorteduniqueexpeditions)
   serialize.end();
