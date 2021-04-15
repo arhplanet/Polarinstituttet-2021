@@ -1,5 +1,6 @@
 # Polarinstituttet-2021
 Oppgaver gitt av Polarinstituttet 2021, se https://gitlab.com/-/snippets/2101589
+MERK: sertificat på datakildene hos api.npolar.no er ugyldige, og noen browsere (IE chrome) kan sperre for fetch.
 
 Oppgave 1 er løst i nodejs. 
 Gitt at nodejs er installert, kjør ./start.sh 
