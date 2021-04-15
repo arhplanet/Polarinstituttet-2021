@@ -1,0 +1,21 @@
+{
+  "name": "pioppgave",
+  "version": "1.0.0",
+  "description": "Oppgave gitt av polar instituttet 2021",
+  "main": "start.js",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "https": "^1.0.0",
+    "ndjson": "^2.0.0",
+    "ndjson-parse": "^1.0.4",
+    "node-fetch": "^2.6.1",
+    "s": "^1.0.0",
+    "stream": "0.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
